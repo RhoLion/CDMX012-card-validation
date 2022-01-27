@@ -1,14 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    
+    <div id="container">
+   
+        <header>
+           <section id="logo">
+            <img width= "350px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPAA3tSrOFo5bcaYC1glon8_bN6-z_Yab1PA&usqp=CAU" alt="logo1" >
+           </section>
+        </header>
+        <br><br>
+        <fieldset>
+        <form>
+            
+            <h4>¡Bienvenido al sistema de validación de tarjetas!</h4> <br>
+            <label for="cardNumberMsg">Tarjeta de crédito a validar </label> <br><br> 
+        <div>   
+            <input type="text" id="cardNumberInput" >  <br>
+            <input type="hidden" id="cardNumberOrigin"> 
+            <h4 id="invalidResult"> </h4>
+            <h4 id="validResult"> </h4>
+            <h4 id="incompleteCard"> </h4>
+            <input type="button" id="submitBtn" value="VALIDAR">
+        </div>    
+    
+        </form>  
+        </fieldset>
+
+        <footer>Copyright @2022 By Rocío León/Laboratoria Bootcamp Mex012</footer>
+    </div>
+
     <script src="index.js" type="module"></script>
-  </body>
+
+
+</body>
 </html>
