@@ -14,7 +14,7 @@
   Al validar la tarjeta le dará la oportunidad a los usuarios de avanzar en la contratación del curso de inglés, permitiendole disponer de tiempo para avanzar en sus objetivos
 
 ##Boceto en papel
-![Boceto en papel](https://raw.githubsercontent.com/rholion/CDMX012-card-validation/img/boceto.png)
+![Boceto en papel](https://raw.githubsercontent.com/rholion/CDMX012-card-validation/branch/path/to/img/boceto.png)
 
   Recibí feedback con respecto a los campos a validar, es decir, sólo validar tarjeta.
   Cambio en el tamaño de letras y ayuda con el enmascarado de la tarjeta.
