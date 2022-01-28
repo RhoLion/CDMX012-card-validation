@@ -10,7 +10,8 @@
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve -s ./src",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "rho": "jest --watch"
   },
   "dependencies": {
     "@babel/core": "^7.6.2",
