@@ -3,7 +3,7 @@
 * Este es un programa que valida tarjetas de crédito para la adqusición de cursos de inglés de todos los niveles. Al hacer la validación, el usuario podrá continuar con la contratación.
 
 ##**Prototipo final**
-![Prototipo final](https://raw.githubusercontent.com/rholion/CDMX012-card-validation/img/cardValidation.png)
+![Prototipo final](https://raw.githubusercontent.com/rholion/CDMX012-card-validation/tree/main/img/cardValidation.png)
 * 
   Programa dirigido a personas interesadas en mejorar su nivel de inglés. El objetivo principal es facilitar la validación de datos de pago, para brindarle un rápido acceso a los distintos cursos.
   
